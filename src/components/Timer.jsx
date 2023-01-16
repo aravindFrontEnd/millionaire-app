@@ -18,7 +18,7 @@ const Timer = ({ setStopWatch, questionNumber }) => {
 
   // if navigated to next question number
   useEffect(() => {
-    setTimer(3000)
+    setTimer(30)
   }, [questionNumber])
 
   return timer

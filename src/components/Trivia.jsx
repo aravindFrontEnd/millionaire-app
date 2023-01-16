@@ -26,7 +26,7 @@ function Trivia({ data, setStopWatch, setQuestionNumber, questionNumber }) {
   useEffect(() => {
 
     setQuestion(data[questionNumber - 1])
-    // waitAnswer()
+    waitAnswer()
   }, [data, questionNumber, waitAnswer])
 
 

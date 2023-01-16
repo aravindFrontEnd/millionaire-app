@@ -58,6 +58,13 @@ body{
   margin-bottom: 10px;
 }
 
+
+@media (min-width: 768px){
+.moneyListItem {
+margin-bottom: 5px;
+}
+}
+
 .moneyListItem.active {
   background-color: #ffc000;
 }
